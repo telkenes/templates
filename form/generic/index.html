@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500,800" rel="stylesheet">
+</head>
+
+<body>
+    <form action="/form" method="post">
+        <h1>Form</h1>
+        <label>Username<a class="note">(PRE-FILLED)</a></label><br>
+        <input name="username" required><br>
+        <label>ID<a class="note">(PRE-FILLED)</a></label><br>
+        <input name="id" required><br>
+        <label>Why are you doing this? <a class="note">(Max. 1024 chars)</a></label><br>
+        <textarea maxlength="1024" name="reason" class="para" required></textarea><br>
+        <label>Disabled></label><br>
+        <input name="id" disabled><br>
+        <div>
+            <span>Below you will find the rules. Please read through them and then continue.</span>
+            <div class="rules">
+                <b>1.</b> One<br>
+                <b>2.</b> Two<br>
+                <b>3.</b> Three<br>
+                <br>
+                These rules are subject to change at any time in the future.<br>
+            </div>
+        </div>
+        <span style="font-size: 16px;">By clicking submit you agree to our 100000 pages terms of service</span><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
