@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Discord bot - Home</title>
+    <link rel="stylesheet" href="dummy.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </head>
+  <style>
+  body {
+    background-image: url('https://i.imgur.com/TdweL2v.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+  <body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://i.imgur.com/TdweL2v.png" width="30" height="30" class="navbar-img d-inline-block align-top" alt="">
+          Discord Bot
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#commands">Commands</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/invite">Invite</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/support">Support</a>
+              </li>
+          </ul>
+      </div>
+
+      </nav>
+    </header>    
+<div class="container">
+  <div class="title">
+    <h1 class="title">Discord Bot</h1>
+    <h3 class="desc">Short Description</h3>
+  </div>
+  <button type="button" class="btn btn-secondary btn-lg">Invite Discord Bot to your server</button>
+
+  
+  <section id="stats">
+    <div class="container">
+      <div class="row">
+  
+        <div class="col-sm-4 stats">
+          <div class="counting" data-count="14">0</div>
+          <h5>Guild Count</h5>
+        </div>
+  
+        <div class="col-sm-4 stats">
+          <div class="counting" data-count="68818">0</div>
+          <h5>User Count</h5>
+        </div>
+  
+        <div class="col-sm-4 stats">
+          <div class="counting" data-count="6">0</div>
+          <h5>Total Upvotes</h5>
+        </div>
+  
+  
+      </div>
+    </div>  
+  </section>
+  <section id="commands">
+    <h3>Some longer description of the bot....</h3>
+    
+    <div class="cmd-list">
+    
+
+  <div class="cmd-list">
+    <h2>Moderation Commands</h2>
+    <table class="table table-hover hide">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Command</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>ban</td>
+          <td>bans a user from your discord server</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>bans</td>
+          <td>checks the banned users for your server</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>giverole</td>
+          <td>gives a role to a user</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>kick</td>
+          <td>kicks a user from your discord server</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>lockdown</td>
+          <td>lockdowns the given channel so users can't speak/send messages</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>mute</td>
+          <td>mutes a user so they can't talk/send messages</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>purge</td>
+          <td>purges/clears messages</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>removerole</td>
+          <td>removes the given role from a user</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>unban</td>
+          <td>unbans the user</td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>unmute</td>
+          <td>unmutes a user to allows them to send messages</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>warn</td>
+          <td>warns a user</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  </div>
+  </section>
+</div>
+
+<script> </script>
+<script>
+// number count for stats, using jQuery animate
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  console.log($this)
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+</script>
+
+  </body>
+</html>
