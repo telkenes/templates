@@ -1,0 +1,95 @@
+.navbar-img {
+  border-radius: 5px;
+}
+
+.nav-item {
+  transition: .5s;
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgba(126, 236, 252, 0.5);
+}
+
+.container {
+  text-align: center;
+}
+
+div.title {
+  text-align: center;
+}
+
+h1.title {
+  font-size: 100px;
+  font-weight: 800;
+  margin-top: 100px;
+}
+
+h3.desc {
+  font-size: 50px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: typing 5s steps(30, end);
+}
+
+@keyframes typing {
+  0% { 
+    width: 0 
+  }
+
+  100% { 
+    width: 100% 
+  }
+}
+
+.btn {
+  height: 50px;
+  width: 40vw;
+}
+
+#commands {
+  margin-top: 100px;
+}
+
+.cmd-list {
+  display: block;
+  text-align: left;
+}
+
+
+.table {
+  display: block;
+  background-color: rgba(255,255,255,0.5);
+  max-width: 75%;
+}
+
+tr {
+  margin: 0 auto;
+  transition: transform .2s;
+}
+
+tbody > tr:hover {
+  transform: scale(1.1);
+}
+
+.hide {
+  visibility: none;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+
+
+section#stats {
+	display: flex;
+  margin-top: 100px;
+  transition: 1s ease-in;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
